@@ -1,0 +1,16 @@
+.header {
+  padding: 15px 0;
+  background-color: $color-black;
+
+  &__navigation {
+    display: flex;
+
+    &-list {
+      display: flex;
+    }
+  }
+
+  &__logo {
+    width: 250px;
+  }
+}
