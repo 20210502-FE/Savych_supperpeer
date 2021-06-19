@@ -1,0 +1,38 @@
+.banner {
+  padding-top: 23px;
+  font-family: $font-regular;
+
+  &__content {
+    max-width: 438px;
+    padding-top: 71px;
+  }
+
+  &__title {
+    font-size: 68px;
+    font-weight: normal;
+    line-height: 75px;
+    letter-spacing: 1px;
+    color: $color-mine-shaft;
+    margin-bottom: 27px;
+  }
+
+  &__desc {
+    font-size: 20px;
+    line-height: 28px;
+    color: $color-emperor;
+    margin-bottom: 31px;
+    padding-right: 37px;
+  }
+
+  &__big-image {
+    position: absolute;
+    right: 0;
+    top: 23px;
+  }
+
+  &__small-image {
+    position: absolute;
+    right: 470px;
+    top: 90px;
+  }
+}

@@ -1,0 +1,36 @@
+.flex {
+  display: flex;
+}
+
+.flex_align-center {
+  align-items: center;
+}
+
+.flex_align-start {
+  align-items: flex-start;
+}
+
+.flex_content-center {
+  justify-content: center;
+}
+
+.flex_space-between {
+  justify-content: space-between;
+}
+
+.flex_wrap {
+  flex-wrap: wrap;
+}
+
+.flex_column {
+  flex-direction: column;
+}
+
+.flex_column-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex_basis-45 {
+  flex-basis: 45%;
+  max-width: 45%;
+}

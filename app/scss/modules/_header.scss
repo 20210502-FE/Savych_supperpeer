@@ -1,16 +1,7 @@
 .header {
-  padding: 15px 0;
-  background-color: $color-black;
-
-  &__navigation {
-    display: flex;
-
-    &-list {
-      display: flex;
-    }
-  }
+  padding-top: 32px;
 
   &__logo {
-    width: 250px;
+    margin-left: -138px;
   }
 }

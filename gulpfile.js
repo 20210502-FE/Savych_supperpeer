@@ -20,7 +20,9 @@ function watchFiles() {
 
 function css() {
     return src("app/scss/**/*.scss")
-        .pipe(sass())
+        .pipe(sass({
+            outputStyle: 'expanded'
+        }))
         .pipe(dest("app/css"))
         .pipe(prefix(['last 15 versions','> 1%','ie 8','ie 7','iOS >= 9','Safari >= 9','Android >= 4.4','Opera >= 30']))
         .pipe(browserSync.stream());
