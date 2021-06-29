@@ -7,7 +7,8 @@
 body {
   min-height: 100%;
   position: relative;
-  background-color: $color-white;
+  overflow-x: hidden;
+  font-family: $font-regular, sans-serif;
 }
 
 a {
@@ -23,7 +24,15 @@ li {
   margin: 0 auto;
 }
 
-h1 {
-
+.title {
+  font-family: $font-regular;
+  font-size: 55px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: $color-mine-shaft;
 }
 
+.relative {
+  position: relative;
+}
