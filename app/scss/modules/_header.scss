@@ -1,16 +1,50 @@
 .header {
-  padding: 15px 0;
-  background-color: $color-black;
-
-  &__navigation {
-    display: flex;
-
-    &-list {
-      display: flex;
-    }
-  }
+  padding-top: 32px;
 
   &__logo {
-    width: 250px;
+    margin-left: -138px;
+
+    //@include for-phone-only() {
+    //  max-width: 150px;
+    //  margin-left: 0;
+    //}
+
+    @include respond-to(phone-only) {
+      max-width: 150px;
+      margin-left: 0;
+    }
+
+    @include respond-to(tablet-portrait) {
+
+    }
+
+    @include respond-to(tablet-landscape) {
+
+    }
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .header {
+    padding-top: 23px;
+
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .header {
+    &__logo {
+      max-width: 150px;
+      margin-left: -50px;
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .header {
+    &__logo {
+      max-width: unset;
+      margin-left: -100px;
+    }
   }
 }
