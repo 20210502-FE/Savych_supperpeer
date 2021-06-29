@@ -22,3 +22,12 @@
     min-width: 112px;
   }
 }
+
+@media only screen and (max-width: 599px) {
+  .button {
+    &_white {
+      padding: 7px 0;
+      min-width: 100px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.features {
+  padding-top: 156px;
+  padding-bottom: 293px;
+  margin: 0 -19px;
+  background-color: $color-white;
+
+  &__column {
+    padding: 0 19px;
+    padding-top: 90px;
+    width: 340px;
+  }
+}
